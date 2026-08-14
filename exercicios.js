@@ -31,6 +31,10 @@ console.log(numero1 / numero2)
 // Fórmula: F = C * 9/5 + 32
 // ------------------------------------------------------------
 
+let celsius = 25;
+let fahrenheit = celsius * 9 / 5 + 32;
+
+console.log("Temperatura em Fahrenheit:", fahrenheit);
 
 
 
@@ -40,7 +44,13 @@ console.log(numero1 / numero2)
 // Dica: use o operador % (resto da divisão)
 // Se numero % 2 === 0, é par.
 // ------------------------------------------------------------
+let numero = 7;
 
+if (numero % 2 === 0) {
+    console.log("Par");
+} else {
+    console.log("Ímpar");
+}
 
 
 
@@ -51,6 +61,19 @@ console.log(numero1 / numero2)
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
 
+let nota1 = 8;
+let nota2 = 7;
+let nota3 = 6;
+
+let media = (nota1 + nota2 + nota3) / 3;
+
+console.log("Média:", media);
+
+if (media >= 7) {
+    console.log("Aprovado");
+} else {
+    console.log("Reprovado");
+}
 
 
 
@@ -64,7 +87,13 @@ console.log(numero1 / numero2)
 // Se for >= 18, mostre "Maior de idade".
 // Se não, mostre "Menor de idade".
 // ------------------------------------------------------------
+let idade = 20;
 
+if (idade >= 18) {
+    console.log("Maior de idade");
+} else {
+    console.log("Menor de idade");
+}
 
 
 
